@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    /*color: transparent;*/
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    /* margin: 20px 10px; */
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid red;
+}
+
+.logo {
+    font-size: 35px;
+}
+
+ul li,
+i {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+ul li a {
+    color: #000;
+}
+
+ul li a:hover {
+    color: #ffc107;
+}
+
+
+/*section_home*/
+
+section {
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.data {
+    width: 50%;
+}
+
+.textyellow {
+    color: #ffc107;
+    padding-bottom: 10px;
+}
+
+.datahead {
+    font-size: 46px;
+}
+
+.datapara {
+    line-height: 27px;
+    margin: 10px 0px;
+}
+
+.databtn {
+    background-color: white;
+    border: 1px solid;
+    padding: 10px 52px;
+    border-radius: 9px;
+    transition: .3s linear;
+}
+
+.databtn:hover {
+    background-color: #ffc107;
+    border: 1px solid white;
+    color: white;
+}
+
+.next,
+.prv {
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: x-large;
+    border: 1px solid;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+}
+
+.prv {
+    left: 95%;
+}
+
+.next:hover,
+.prv:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.srv {
+    background-color: #f5f5f5;
+    margin: 20px 30px;
+    padding: 1rem;
+    display: flex;
+    border-radius: 20px;
+}
+
+.box {
+    width: 32%;
+    padding: 20px;
+    text-align: center;
+}
+
+.boxicon {
+    color: yellow;
+    text-align: center;
+    width: 100%;
+}
+
+.boxpara {
+    color: #333;
+    margin: 10px 0px;
+}
