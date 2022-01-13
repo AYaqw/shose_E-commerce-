@@ -1,1 +1,0 @@
-# shose_E-commerce-
